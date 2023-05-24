@@ -1,6 +1,5 @@
-// Import Three.js and dat.GUI libraries
-const THREE = require('three');
-const dat = require('dat.gui');
+import * as THREE from 'three';
+import * as dat from 'dat.gui';
 
 // Create a Three.js scene, camera, and renderer
 const scene = new THREE.Scene();
